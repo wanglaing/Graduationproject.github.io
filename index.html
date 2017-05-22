@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>绿植销售网站</title>
+		<link rel="stylesheet" type="text/css" href="css/rest.css" />
+		<link rel="stylesheet" type="text/css" href="css/bass.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css" />
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/masonry-docs.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.banner .swiper01 {
+				width: 100%;
+			}
+			
+			.banner .swiper01 img {
+				display: block;
+				width: 100%;
+				min-width: 1000px;
+			}
+			
+			.banner01 .swiper02 {
+				height: 455px;
+			}
+			
+			.banner01 .swiper02 .sw {}
+			
+			.banner01 .swiper02 img {
+				width: 100%;
+			}
+			
+			.banner01 .swiper02 .swiper-button-prev,
+			.swiper-container-rtl .swiper-button-next {
+				background-image: url(img/btn_right.png);
+				background-size: 100%;
+				left: 10px;
+				margin-top: 18.5%;
+				right: auto;
+				left: 10px;
+				right: auto;
+			}
+			
+			.banner01 .swiper02 .swiper-button-next,
+			.swiper-container-rtl .swiper-button-prev {
+				background-image: url(img/btn_left.png);
+				background-size: 100%;
+				right: 10px;
+				margin-top: 18.5%;
+				left: auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="nav clearflot">
+				<div class="logo">
+					<img onclick="location='index.html'"  class="pics" src="img/logo.png"/>
+					<img class="pic1" src="img/line_1.png" />
+				</div>
+				<div class="dh">
+					<ul>
+						<li>
+							<a style="border-bottom: 4px solid #83a0a4;color: #83a0a4;" href="index.html">网站首页</a>
+						</li>
+						<li>
+							<a  href="index1.html">最新优惠 </a>
+						</li>
+						<li>
+							<a   href="idnex2.html">多肉植物</a>
+						</li>
+						<li>
+							<a href="index3.html">养护贴士</a>
+						</li>
+						<li>
+							<a href="index4.html">关于我们</a>
+						</li>
+					</ul>
+				</div>
+				<div class="container sou">
+					<div class="search">
+						<span class="s_con"><input type="text" class="content" placeholder="请输入搜索内容"><i class="clear"></i></span>
+						<span class="s_btn"></span>
+					</div>
+				</div>
+			</div>
+			<div class="banner">
+				<div class="swiper-container swiper01">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="sw">
+								<img src="img/banner_1.jpg" />
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sw">
+								<img src="img/banner_1.jpg" />
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sw">
+								<img src="img/banner_1.jpg" />
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="wrap_content">
+				<div class="main_1">
+					<div class="xk">
+						<img class="dr" src="img/duorou_1.jpg" />
+					</div>
+					<div class="word1">
+						<h2>多肉植物</h2>
+						<p>多肉植物又称多浆植物、肉质植物.指植物器官的某一部分，如茎或叶或根（少数种类兼有两个或两个以上部分）具有发达的薄壁组织用以贮藏水分，在外形上显得肥厚多汁的一类植物。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrap" style="background-color: #D4D4D4;padding-bottom: 1em;">
+			<div class="wrap_content">
+				<div class="main_1" style="background-color: transparent;">
+					<div class="list0">
+						<ul>
+							<li class="active">
+								<p>新品</p>
+								<p>NEW ARRIVAL</p>
+							</li>
+							<li>
+								<p>热卖</p>
+								<p>HOT SALE</p>
+							</li>
+							<li>
+								<p>特价</p>
+								<p>SPECIAL OFFER</p>
+							</li>
+						</ul>
+					</div>
+					<div class="banner01" style="background-color: #fff;">
+						<div class="swiper-container swiper02">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="sw">
+										<img src="img/01.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="sw">
+										<img src="img/01.jpg" />
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="sw">
+										<img src="img/01.jpg" />
+									</div>
+								</div>
+							</div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="wrap" style="">
+			<div class="wrap_content">
+				<div class="main_1" style="background-color: transparent;">
+					<div class="list_title">
+						<h2>宝贝 · POPULAR ·  展示</h2>
+					</div>
+					<div id="masonry" class="container-fluid">
+						<div class="box">
+							<img src="img/bb02.jpg" />
+						</div>
+						<div class="box">
+							<img src="img/bb01.jpg" />
+
+						</div>
+						<div class="box">
+							<img src="img/bb03.jpg" />
+
+						</div>
+						<div class="box">
+							<img src="img/bb02.jpg" />
+
+						</div>
+						<div class="box">
+							<img src="img/bb03.jpg" />
+
+						</div>
+						<div class="box">
+							<img src="img/bb02.jpg" />
+
+						</div>
+						<div class="box">
+							<img src="img/bb01.jpg" />
+
+						</div>
+						<div class="box">
+							<img src="img/bb01.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer" style="padding: 2em 0;">
+			<div class="wrap_content" style="position: relative;">
+				<div class="list02">
+					<ul>
+						<li onclick="javascript:window.location.href='index.html'">
+							网站首页
+						</li>
+						<li onclick="javascript:window.location.href='index1.html'">
+							最新优惠
+						</li>
+						<li onclick="javascript:window.location.href='index2.html'">
+							多肉植物
+						</li>
+						<li onclick="javascript:window.location.href='index3.html'">
+							养护贴士
+						</li>
+						<li onclick="javascript:window.location.href='index4.html'">
+							关于我们
+						</li>
+					</ul>
+				</div>
+				<div class="one">
+					<ul>
+						<li><img src="img/weix.png" /></li>
+						<li>
+							<a href="tencent://message/?uin=1017315861&site=在线咨询&menu=yes" target="blank">
+								<img src="img/QQ.png" />
+							</a>
+						</li>
+						<li>
+							<a href="http://weibo.com/FaceWL95?from=profile&wvr=6"><img src="img/weibo.png" /></a>
+						</li>
+					</ul>
+				</div>
+				<img class="ds" src="img/erweima.png" />
+			</div>
+		</div>
+		<script>
+			$(document).ready(function(body) {
+				var mySwiper = new Swiper('.swiper01', {
+					loop: true,
+					pagination: '.swiper-pagination',
+					autoplay: 3000
+				})
+
+				$('.content').on('keyup', function() {
+					$('.clear').show();
+				});
+				$('.clear').click(function() {
+					$('.content').val('');
+				});
+				var mySwiper02 = new Swiper('.swiper02', {
+					slidesPerView: 3,
+					paginationClickable: true,
+					loop: true,
+					spaceBetween: 10,
+					nextButton: '.swiper-button-next',
+					prevButton: '.swiper-button-prev',
+					autoplay: 3000
+				})
+				$(function() {
+					var $container = $('#masonry');
+					$container.imagesLoaded(function() {
+						$container.masonry({
+							itemSelector: '.box',
+							gutter: 20,
+							isAnimated: true,
+						});
+					});
+				});
+			})
+		</script>
+	</body>
+
+</html>
